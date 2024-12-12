@@ -9,3 +9,4 @@ circ = 2*math.pi*radius
 area = math.pi*radius**2
 print(f'{"The diameter of the circle is"}, {diam:.1f}')
 print(f'{"The circumfrence of the circle is"}, {circ:.2f}')
+input()
