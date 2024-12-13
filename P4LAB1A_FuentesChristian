@@ -1,0 +1,26 @@
+# Christian Fuentes
+# 12/9/2024
+# P4LAB1
+# This Code draws a square then a rectangle
+
+import turtle
+
+screen = turtle.Screen()
+t = turtle.Turtle()
+
+
+t.penup()
+t.goto(-50, 0)  
+t.pendown()
+for _ in range(4):
+    t.forward(100)  
+    t.right(90)     
+
+t.penup()
+t.goto(100, 0)  
+t.pendown()
+for _ in range(3):
+    t.forward(100)  
+    t.left(120)     
+turtle.done()
+input()
